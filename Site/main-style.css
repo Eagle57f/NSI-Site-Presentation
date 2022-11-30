@@ -1,0 +1,28 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #240033, #420054);
+    display: flex;
+    font-family: "Dejavu Sans", Arial, sans-serif; /* https://99designs.fr/blog/design-web-digital/polices-de-caracteres-web/ */
+    scroll-behavior: smooth; 
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom,  #240033, #420054);
+
+}
+
+header h1 {
+    font: bold 40px sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(60deg, #ee43a1, #a700ef);
+    background-clip: text;
+    color: transparent;
+}
