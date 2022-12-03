@@ -1,7 +1,8 @@
 table {
-    position: absolute;
-    top: 1100px;
+    border-collapse: collapse;
+    text-align: center;
 }
+
 
 th, td {
     border: 1px solid black;
@@ -9,16 +10,13 @@ th, td {
 }
 
 th {
-    vertical-align: bottom;
+    vertical-align: center;
 }
 
-thead > tr {
+thead > tr,  .side-row{
     background-color: rgb(54, 57, 58);
 }
 
-thead > tr:nth-of-type(2) {
-    border-bottom: 2px solid black;
-}
 
 .invi {
     border: 0px solid black;

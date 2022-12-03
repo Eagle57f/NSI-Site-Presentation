@@ -16,9 +16,13 @@ img {
     height: 100%;
 }
 
+table {
+    position: absolute;
+    top: 300px;
+}
 
 
-@media screen and (min-width: 0px) and (max-width:980px) {
+@media screen and (min-width: 0px) and (max-width:1263px) {
     header {
         position: absolute;
         top: 0px;
@@ -49,7 +53,7 @@ img {
     }
 
     .front-dev_intro {
-        top: 400px;
+        top: 900px;
         left: 0%;
         max-width: 100%;
         width: 100%;
@@ -57,7 +61,7 @@ img {
     }
 
     .what_is_front-dev {
-        top: 760px;
+        top: 1260px;
         left: 0%;
         max-width: 100%;
         width: 100%;
@@ -65,7 +69,7 @@ img {
     }
 
     .front-dev_levels {
-        top: 1120px;
+        top: 1720px;
         left: 0%;
         max-width: 100%;
         width: 100%;
@@ -94,7 +98,7 @@ img {
 }
 
 
-@media screen and (min-width: 980px) and (max-width:1908px) {
+@media screen and (min-width: 1263px) and (max-width:1908px) {
     header {
         position: absolute;
         top: 0px;
@@ -124,7 +128,7 @@ img {
     }
 
     .front-dev_intro {
-        top: 650px;
+        top: 1150px;
         left: 0px;
         max-width: 100%;
         width: 640px;
@@ -132,7 +136,7 @@ img {
     }
 
     .what_is_front-dev {
-        top: 300px;
+        top: 800px;
         left: 0px;
         max-width: 100%;
         width: 640px;
@@ -140,7 +144,7 @@ img {
     }
 
     .front-dev_levels {
-        top: 300px;
+        top: 800px;
         right: 0px;
         max-width: 623px;
         width: 640px;
@@ -179,7 +183,7 @@ img {
     }
 
     .front-dev_intro {
-        top: 300px;
+        top: 700px;
         right: 0px;
         max-width: 100%;
         width: 640px;
@@ -187,7 +191,7 @@ img {
     }
 
     .what_is_front-dev {
-        top: 300px;
+        top: 700px;
         left: 0px;
         max-width: 100%;
         width: 640px;
@@ -195,7 +199,7 @@ img {
     }
 
     .front-dev_levels {
-        top: 300px;
+        top: 700px;
         left: 630px;
         max-width: 35%;
         width: 640px;
