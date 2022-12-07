@@ -5,6 +5,8 @@
 
 
 
+
+
 .image_with_text::before { /* Style de l'image + couleur derière l'image */
     content: "";
     position: absolute;

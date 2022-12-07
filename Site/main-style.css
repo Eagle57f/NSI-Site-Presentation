@@ -17,10 +17,7 @@ img {
     object-fit: contain;
 }
 
-table {
-    position: absolute;
-    top: 300px;
-}
+
 
 
 @media screen and (min-width: 0px) and (max-width:1263px) {
@@ -62,6 +59,11 @@ table {
             background-clip: text;
             color: transparent;
         }
+    }
+
+    table {
+        position: absolute;
+        top: 400px;
     }
 
     .front-dev_intro {
@@ -149,6 +151,11 @@ table {
         }
     }
 
+    table {
+        position: absolute;
+        top: 300px;
+    }
+
     .front-dev_intro {
         top: 1150px;
         left: 0px;
@@ -170,12 +177,16 @@ table {
         right: 0px;
         max-width: 623px;
         width: 640px;
-        height: 684px;
+        height: 710px;
+    }
+    .niveau_img {
+        object-fit: fill;
+        width:100%;
     }
 }
 
 
-@media screen and (min-width: 1908px) {
+@media screen and (min-width: 1909px) {
     header {
         position: absolute;
         top: 0px;
@@ -212,6 +223,11 @@ table {
             background-clip: text;
             color: transparent;
         }
+    }
+
+    table {
+        position: absolute;
+        top: 300px;
     }
 
     .front-dev_intro {
