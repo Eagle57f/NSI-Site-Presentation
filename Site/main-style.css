@@ -245,6 +245,7 @@ nav:hover .nav_bg {
     height: 10%;
     width: 300px;
     background-color: #3d96fc;
+    z-index: 100;
 }
 
 .menu_icon_blue {
