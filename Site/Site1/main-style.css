@@ -181,7 +181,22 @@ header > h1 {
         height: 350px;
     }
 
+    .data-missions {
+        top: 2000px;
+        left: 0px;
+        max-width: 100%;
+        height: 600px;
+        width: 600px;
+    }
 
+
+    .data-competences {
+        top: 2000px;
+        left: 600px;
+        max-width: 100%;
+        height: 600px;
+        width: 600px;
+    }
 }
 
 
@@ -274,13 +289,3 @@ header > h1 {
 
 
 
-
-
-
-
-
-@media screen and (min-width: 0px) and (max-width:500px) {
-    html {
-        visibility: hidden;
-    }
-}
