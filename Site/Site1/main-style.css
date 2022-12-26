@@ -7,7 +7,7 @@ html, body {
     background: rgb(202, 220, 255);
     text-align: justify;
     display: flex;
-    font-family: sans-serif; /* https://99designs.fr/blog/design-web-digital/polices-de-caracteres-web/ */
+    font-family: roboto, sans-serif; /* https://99designs.fr/blog/design-web-digital/polices-de-caracteres-web/ */
     scroll-behavior: smooth; 
 }
 
@@ -183,15 +183,23 @@ header > h1 {
 
 
 
-
-    .infogram-embed {
+    .bg-infogram {
+        background-color: #313233;
         position: absolute;
         top: 2500px;
+        width: 100%;
+        height: 720px;
+    }
+
+    .infogram_front {
+        position: absolute;
+        top: 1688px;
+        width: 1263px;
     }
 
     
     .data-missions {
-        top: 2000px;
+        top: 2500px;
         left: 0px;
         max-width: 100%;
         height: 421px;
@@ -200,7 +208,7 @@ header > h1 {
 
 
     .data-competences {
-        top: 2000px;
+        top: 2500px;
         left: 631px;
         max-width: 100%;
         height: 421px;
