@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 2000px;
+    color: rgb(11, 20, 27);
+    background: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: sans-serif; /* https://99designs.fr/blog/design-web-digital/polices-de-caracteres-web/ */
+    scroll-behavior: smooth; 
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.line {
+    width: 90%;
+    margin-inline: 5%;
+    height: 1px;
+    background-color: rgb(158, 158, 158);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 2vw;
+}
+
+header h1 {
+    background: linear-gradient(90deg, #061fff, #0c9aec);
+}
+
+.title-front h1{
+    background: linear-gradient(90deg, #ea06ff, #0ce4ec);
+}
+
+header h1, .title-front h1, .title-data h1{
+    margin: 0px;
+    font-size: 4vw;
+    background-clip: text;
+    color: transparent;
+    font-family: "Titillium Web"
+}
+
+
+
+
+
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.intro h3 {
+    max-width: 90ch;
+    margin-inline: auto;
+}
+
+
+
+
+
+
+
+
+.wrapper-front {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(360px, auto);
+}
+
+
+.wrapper-front .one .image_with_text,
+.wrapper-front .two .image_with_text,
+.wrapper-front .six .image_with_text,
+.wrapper-front .seven .image_with_text {
+    height: 360px;
+}
+
+
+.wrapper-front .one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.wrapper-front .two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+
+
+.wrapper-front .three {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+.wrapper-front .three .image_with_text {
+    height: 720px;
+}
+
+.wrapper-front .four {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.wrapper-front .vid_front_end,
+.wrapper-front .vid_front_end2 {
+    height: 360px;
+    width: 50vw;
+}
+
+.wrapper-front .five {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+
+
+.wrapper-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(428px, auto);
+}
+
+
+.wrapper-data .one {
+    grid-column: 1;
+    grid-row: 1;
+    height: 428px;
+    width: 1fr;
+}
+
+.wrapper-data .two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.wrapper-data .one .image_with_text,
+.wrapper-data .two .image_with_text,
+.wrapper-data .six .image_with_text,
+.wrapper-data .seven .image_with_text {
+    height: 428px;
+}

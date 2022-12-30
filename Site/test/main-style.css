@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-der {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titre section {
+    display: none;
+    padding: 20px;
+}
+
+.titre:hover section {
+    display: flex;
+}
+
+.titre1 h2, .titre3 h2, .titre5 h2{
+    background-color: rgb(157, 255, 255);
+    padding: 10px;
+}
+
+.titre2 h2, .titre4 h2{
+    background-color: rgb(225, 255, 246);
+    padding: 10px;
+}
