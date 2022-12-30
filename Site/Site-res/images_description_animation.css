@@ -1,0 +1,58 @@
+.image_with_text { /* Style de la "boîte" de l'image */
+    position: absolute;
+    overflow: hidden;
+    max-width: 50%;
+
+}
+.image_with_text::before { /* Style de l'image + couleur derière l'image */
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 254, 255);
+    /* background-image: linear-gradient(to left top, #2049ff,  #7092ff); */
+}
+.image_with_text .img{ /* Style de l'image */
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: 640px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-position: 100%;
+}
+.image_with_text:hover .img{ /* Animation de l'image */
+    transform: translateY(-200%);
+}
+.content { /* Style du texte */
+    font-size: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(200%);
+}
+.image_with_text .content{ /* Sortie du texte */
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-position: 100%;
+}
+.image_with_text:hover .content { /* Entrée du texte */
+    transform: translateY(0%);
+    transition: 0.7s;
+    transition-delay: 0s;
+}
+
+
+
+
+
