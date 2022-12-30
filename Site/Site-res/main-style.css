@@ -57,7 +57,9 @@ header h1, .title-front h1, .title-data h1{
     font-family: "Titillium Web"
 }
 
-
+.title-data h1, .title-front h1 {
+    font-size: 3vw;
+}
 
 
 
