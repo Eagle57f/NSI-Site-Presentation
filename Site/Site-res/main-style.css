@@ -45,7 +45,7 @@ header h1 {
     background: linear-gradient(90deg, #061fff, #0c9aec);
 }
 
-.title-front h1{
+.title-front h1, .title-data h1{
     background: linear-gradient(90deg, #ea06ff, #0ce4ec);
 }
 
