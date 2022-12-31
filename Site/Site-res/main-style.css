@@ -32,6 +32,13 @@ img {
     background-color: rgb(158, 158, 158);
 }
 
+.line-gradient {
+    width: 90%;
+    margin-inline: 5%;
+    height: 1px;
+    background: linear-gradient(90deg, #ea06ff, #0ce4ec);
+}
+
 
 header {
     display: flex;
@@ -121,8 +128,7 @@ header h1, .title-front h1, .title-data h1{
     grid-row: 3;
 }
 
-.wrapper-front .vid_front_end,
-.wrapper-front .vid_front_end2 {
+.wrapper-front .vid {
     height: 360px;
     width: 50vw;
 }
@@ -159,4 +165,10 @@ header h1, .title-front h1, .title-data h1{
 .wrapper-data .six .image_with_text,
 .wrapper-data .seven .image_with_text {
     height: 428px;
+}
+
+
+.wrapper-data .vid {
+    height: 360px;
+    width: 50vw;
 }
