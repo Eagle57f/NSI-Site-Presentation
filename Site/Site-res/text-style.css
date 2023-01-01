@@ -58,14 +58,15 @@ header h1 {
 
 header h1, .title-front h1, .title-data h1{
     margin: 0px;
-    font-size: 4vw;
+    font-size: clamp(30px, 4vw, 75px);
     background-clip: text;
+    text-align: center;
     color: transparent;
     font-family: "Titillium Web"
 }
 
 .title-data h1, .title-front h1 {
-    font-size: 3vw;
+    font-size: clamp(25px, 3vw, 75px);
 }
 
 
@@ -81,7 +82,29 @@ header h1, .title-front h1, .title-data h1{
 }
 
 
+.text {
+    padding: 50px;
+}
+
+.text h2 {
+    padding-bottom: 20px;
+    margin: 0px;
+    background: linear-gradient(90deg, #ea06ff, #0ce4ec);
+    background-clip: text;
+    color: transparent;
+}
+
+.text h4 {
+    padding-inline: 10px;
+}
 
 
+.logo {
+    height: 15px;
+    width: 15px;
+}
 
-
+.link {
+    
+    text-decoration: underline;
+}

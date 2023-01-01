@@ -58,14 +58,14 @@ header h1 {
 
 header h1, .title-front h1, .title-data h1{
     margin: 0px;
-    font-size: 4vw;
+    font-size: clamp(30px, 4vw, 75px);
     background-clip: text;
     color: transparent;
     font-family: "Titillium Web"
 }
 
 .title-data h1, .title-front h1 {
-    font-size: 3vw;
+    font-size: clamp(25px, 3vw, 75px);
 }
 
 
@@ -79,9 +79,3 @@ header h1, .title-front h1, .title-data h1{
     max-width: 90ch;
     margin-inline: auto;
 }
-
-
-
-
-
-
