@@ -4,7 +4,7 @@ nav {
     left: 0;
     height: 100vh;
     z-index: 100;
-    background-color: #abd2ff;
+    background-color: rgb(225, 239, 255);
     transform: translateX(-110%);
     transition: 0.2s cubic-bezier(0.33, 1, 0.68, 1);
     box-shadow: 2px 0px 2px rgb(0, 0, 0);
@@ -131,7 +131,7 @@ ul {
 }
 
 .title2 h2, .title4 h2{
-    background-color: rgb(225, 250, 255);
+    background-color: #c6e1ff;
     padding: 10px;
 }
 
