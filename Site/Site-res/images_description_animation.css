@@ -17,14 +17,14 @@
     display: flex;
     width: 100%;
     height: 100%;
-    background-size: 640px;
-    background-repeat: no-repeat;
     transition: 0.9s;
     transition-delay: 0s;
     background-position: 100%;
+    z-index: 1;
 }
 .image_with_text:hover .img{ /* Animation de l'image */
     transform: translateY(-200%);
+    z-index: 1;
 }
 .content { /* Style du texte */
     font-size: 1vw;

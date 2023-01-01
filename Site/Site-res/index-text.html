@@ -11,12 +11,10 @@ https://flexboxfroggy.com/#fr-->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main-style.css" />
-    <link rel="stylesheet" href="images_description_animation.css" />
+    <link rel="stylesheet" href="text-style.css" />
     <link rel="stylesheet" href="table.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="grid.css" />
     <link rel="icon" href="../images/favicon-16x16.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
@@ -51,7 +49,7 @@ https://flexboxfroggy.com/#fr-->
         </div>
         <div class="nav_content">
             <div class="menu-der">
-                <div class="title title1 is-open">
+                <div class="title title1">
                     <a href="index.html?open=true"><h2 onclick="openTitle('1')">Page principale</h2></a>
                     <div>
                         <a href="#"><h3>Haut de page</h3></a>
@@ -59,7 +57,7 @@ https://flexboxfroggy.com/#fr-->
                         <a href="#data"><h3>Le datascientist</h3></a>
                     </div>
                 </div>
-                <div class="title title2">
+                <div class="title title2 is-open">
                     <a href="index-text.html?open=true"><h2 onclick="openTitle('2')">Page texte uniquement</h2></a>
                     <div>
                         <a href="#"><h3>Haut de page</h3></a>
@@ -90,6 +88,7 @@ https://flexboxfroggy.com/#fr-->
     </nav>
 
 
+
     <script type="text/javascript" src="load.js"></script>
 
 
@@ -98,59 +97,57 @@ https://flexboxfroggy.com/#fr-->
         <thead>
             <tr>
                 <th class="invi"></th>
-                <th colspan="4">Deux métiers de l'informatique</th>
+                <th colspan="2">Deux métiers de l'informatique</th>
             </tr>
             <tr>
                 <th class="invi"></th>
                 <th rowspan="1">Développeur front-end</th>
-                <th rowspan="1"><img src="../images/image_dev_front-dev.webp" style="width: 140px;"></th>
                 <th colspan="1">Data Scientist</th>
-                <th rowspan="1"><img src="../images/image_data-scientist.webp" style="width: 100px;"></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th rowspan="3" class="side-row">Formations</th>
-                <th colspan="2">Formations sur Udemy</th>
-                <th colspan="2">DataScientest</th>
+                <th >Formations sur Udemy</th>
+                <th >DataScientest</th>
             </tr>
             <tr>
-                <th colspan="2">Wild code school</th>
-                <th colspan="2">UIT Paris</th>
+                <th >Wild code school</th>
+                <th >UIT Paris</th>
             </tr>
             <tr>
-                <th colspan="2">Open Classroom</th>
-                <th colspan="2">Open Classroom</th>
+                <th >Open Classroom</th>
+                <th >Open Classroom</th>
             </tr>
 
             <tr>
                 <th rowspan="2" class="side-row">Débouchées</th>
-                <th colspan="2">Développeur front-end freelance</th>
-                <th colspan="2">Data Scientist en entreprise</th>
+                <th >Développeur front-end freelance</th>
+                <th >Data Scientist en entreprise</th>
             </tr>
             <tr>
-                <th colspan="2">Développeur front-end dans une entreprise</th>
-                <th colspan="2">Data Scientist en entreprise avec responsabilités de manager</th>
+                <th >Développeur front-end dans une entreprise</th>
+                <th >Data Scientist en entreprise avec responsabilités de manager</th>
             </tr>
 
             <tr>
                 <th rowspan="3" class="side-row">Rémunération</th>
-                <th colspan="2">45 000 € / an en Île de France sans expérience</th>
-                <th colspan="2">45 000 € / an en France</th>
+                <th >45 000 € / an en Île de France sans expérience</th>
+                <th >45 000 € / an en France</th>
             </tr>
             <tr>
-                <th colspan="2">38 700 € / an hors Île de France sans expérience</th>
-                <th colspan="2">118 000 $ / an aux USA</th>
+                <th >38 700 € / an hors Île de France sans expérience</th>
+                <th >118 000 $ / an aux USA</th>
             </tr>
             <tr>
-                <th colspan="2">58 500 € / an hors Île de France avec expérience 5 ans</th>
-                <th colspan="2">171 000 $ / an aux USA avec profil senior</th>
+                <th >58 500 € / an hors Île de France avec expérience 5 ans</th>
+                <th >171 000 $ / an aux USA avec profil senior</th>
             </tr>
 
             <tr>
                 <th rowspan="1" class="side-row">Languages nécessaires</th>
-                <th colspan="2">HTML, CSS, JavaScript, PHP</th>
-                <th colspan="2">Python, R</th>
+                <th >HTML, CSS, JavaScript, PHP</th>
+                <th >Python, R</th>
             </tr>
         </tbody>
     </table>
@@ -169,11 +166,8 @@ https://flexboxfroggy.com/#fr-->
 
 
 
-    <div class="wrapper-front">
-        <div class="one">
-            <div class="image_with_text front-dev_intro">
-                <img class="img" src="../images/front-end_schema.webp">
-                <div class="content">
+
+                <div >
                     <h2>Les languages utilisés</h2>
                     <h4>
                         <br>Se spécialiser dans le développement web requiert la maîtrise des langages de programmation
@@ -185,12 +179,8 @@ https://flexboxfroggy.com/#fr-->
                         ou <u>ExtJS</u>) est un atout indéniable dans la profession.
                     </h4>
                 </div>
-            </div>
-        </div>
-        <div class="two">
-            <div class="image_with_text what_is_front-dev">
-                <img class="img" src="../images/front-and-back-end.jpg">
-                <div class="content">
+
+                <div >
                     <h2>C'est quoi le front-end?</h2>
                     <h4><br>Le <u>Front End</u> est un peu comme la partie visible de l’iceberg. À l’inverse, le
                         <u>Back-End</u> est la partie immergée de l'iceberg : elle n’est pas visible pour les
@@ -203,12 +193,8 @@ https://flexboxfroggy.com/#fr-->
                         travailler en étroite collaboration pour la réussite d’une interface web.
                     </h4>
                 </div>
-            </div>
-        </div>
-        <div class="three">
-            <div class="image_with_text front-dev_levels">
-                <img class="img niveau_img" src="../images/front-dev_niveaux.png">
-                <div class="content">
+
+                <div >
                     <h2>Les missions du développeur front-end</h2>
                     <h4><br>Grâce à sa connaissance des langages de développement web et des outils principaux que sont
                         le HTML, le CSS, et le Javascript, le dev front crée des pages web en suivant les maquettes d’un
@@ -229,8 +215,7 @@ https://flexboxfroggy.com/#fr-->
                         marché.
                     </h4>
                 </div>
-            </div>
-        </div>
+
         <div class="four">
             <iframe class="vid" src="https://www.youtube-nocookie.com/embed/3yTRNyB6E0Q" title="YouTube video player"
                 frameborder="0"
@@ -256,12 +241,7 @@ https://flexboxfroggy.com/#fr-->
     <div class="line-gradient" style="margin-bottom: 50px;"></div>
 
 
-
-    <div class="wrapper-data">
-        <div class="six">
-            <div class="image_with_text data-missions">
-                <img class="img" src="../images/data-missions.webp">
-                <div class="content">
+                <div >
                     <h2>Les missions datascientiste</h2>
                     <h4><br>
                         Le Data Scientist a plusieurs responsabilités principales.<br><br>
@@ -280,12 +260,7 @@ https://flexboxfroggy.com/#fr-->
                         dans cette tâche.
                     </h4>
                 </div>
-            </div>
-        </div>
-        <div class="seven">
-            <div class="image_with_text data-competences">
-                <img class="img" src="../images/data-competences.webp">
-                <div class="content">
+                <div >
                     <h2>Les compétences du datascientiste</h2>
                     <h4><br>
                         Le Data Scientist est à la fois mathématicien et expert en informatique. Pour analyser les
@@ -302,8 +277,8 @@ https://flexboxfroggy.com/#fr-->
                         et les tendances.<br><br>
                     </h4>
                 </div>
-            </div>
-        </div>
+
+
         <div class="seven">
             <iframe class="vid" width="560" height="315" src="https://www.youtube-nocookie.com/embed/efEW5oVudas"
                 title="YouTube video player" frameborder="0"
