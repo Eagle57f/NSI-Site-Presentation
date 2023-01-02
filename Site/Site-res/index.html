@@ -13,10 +13,10 @@ https://flexboxfroggy.com/#fr-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main-style.css" />
     <link rel="stylesheet" href="images_description_animation.css" />
-    <link rel="stylesheet" href="table.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="table.css" />
     <link rel="icon" href="../images/favicon-16x16.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
@@ -94,7 +94,7 @@ https://flexboxfroggy.com/#fr-->
 
 
 
-    <table>
+    <table class="table-with-image">
         <thead>
             <tr>
                 <th class="invi"></th>
@@ -156,6 +156,64 @@ https://flexboxfroggy.com/#fr-->
     </table>
 
 
+    <table class="table-without-image">
+        <thead>
+            <tr>
+                <th class="invi"></th>
+                <th colspan="2">Deux métiers de l'informatique</th>
+            </tr>
+            <tr>
+                <th class="invi"></th>
+                <th rowspan="1">Développeur front-end</th>
+                <th colspan="1">Data Scientist</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" class="side-row">Formations</th>
+                <th>Formations sur Udemy</th>
+                <th>DataScientest</th>
+            </tr>
+            <tr>
+                <th>Wild code school</th>
+                <th>UIT Paris</th>
+            </tr>
+            <tr>
+                <th>Open Classroom</th>
+                <th>Open Classroom</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2" class="side-row">Débouchées</th>
+                <th>Développeur front-end freelance</th>
+                <th>Data Scientist en entreprise</th>
+            </tr>
+            <tr>
+                <th>Développeur front-end dans une entreprise</th>
+                <th>Data Scientist en entreprise avec responsabilités de manager</th>
+            </tr>
+
+            <tr>
+                <th rowspan="3" class="side-row">Rémunération</th>
+                <th>45 000 € / an en Île de France sans expérience</th>
+                <th>45 000 € / an en France</th>
+            </tr>
+            <tr>
+                <th>38 700 € / an hors Île de France sans expérience</th>
+                <th>118 000 $ / an aux USA</th>
+            </tr>
+            <tr>
+                <th>58 500 € / an hors Île de France avec expérience 5 ans</th>
+                <th>171 000 $ / an aux USA avec profil senior</th>
+            </tr>
+
+            <tr>
+                <th rowspan="1" class="side-row">Languages nécessaires</th>
+                <th>HTML, CSS, JavaScript, PHP</th>
+                <th>Python, R</th>
+            </tr>
+        </tbody>
+    </table>
 
     <div class="line-gradient" id="front"></div>
 

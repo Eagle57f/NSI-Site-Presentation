@@ -24,3 +24,27 @@ thead > tr, .side-row{
     border: 0px solid black;
     background-color: rgb(255, 255, 255);
 }
+
+
+
+
+@media screen and (max-width: 575px) {
+    table.table-without-image {
+        display: block;
+    }
+
+    table.table-with-image{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 575px) {
+    table.table-without-image {
+        display: none;
+    }
+
+    table.table-with-image{
+        display: block;
+    }
+}
