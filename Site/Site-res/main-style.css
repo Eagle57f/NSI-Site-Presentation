@@ -51,6 +51,7 @@ header {
 header h1 {
     background: linear-gradient(90deg, #061fff, #0c9aec);
     text-align: center;
+    padding-inline: 70px;
 }
 
 
@@ -59,12 +60,15 @@ header h1 {
     width: 10vw;
     height: 10vw;
     animation: rotation 12s linear 0s infinite;
-    position: relative;
-    top: -2vw;
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
 }
+
 .icon-boussole:hover{
     animation-play-state: paused;
-    }
+}
+
 @keyframes rotation {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
