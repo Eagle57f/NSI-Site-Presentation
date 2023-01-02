@@ -50,7 +50,29 @@ header {
 
 header h1 {
     background: linear-gradient(90deg, #061fff, #0c9aec);
+    text-align: center;
 }
+
+
+
+.icon-boussole {
+    width: 10vw;
+    height: 10vw;
+    animation: rotation 12s linear 0s infinite;
+    position: relative;
+    top: -2vw;
+}
+.icon-boussole:hover{
+    animation-play-state: paused;
+    }
+@keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+
+
 
 .title-front h1, .title-data h1{
     background: linear-gradient(90deg, #ea06ff, #0ce4ec);
@@ -60,6 +82,8 @@ header h1, .title-front h1, .title-data h1{
     margin: 0px;
     font-size: clamp(30px, 4vw, 75px);
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     font-family: "Titillium Web"
 }
@@ -78,4 +102,18 @@ header h1, .title-front h1, .title-data h1{
 .intro h3 {
     max-width: 90ch;
     margin-inline: auto;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    table.table-with-image{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    table.table-without-image {
+        display: none;
+    }
 }

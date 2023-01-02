@@ -9,13 +9,10 @@ table {
 th {
     border: 1px solid rgb(0, 0, 0);
     padding:4px 6px;
-}
-
-th {
     vertical-align: middle;
 }
 
-thead > tr, .side-row{
+thead tr, .side-row{
     background-color: #80a8ff;
 }
 
@@ -25,18 +22,6 @@ thead > tr, .side-row{
     background-color: rgb(255, 255, 255);
 }
 
-
-
-
-@media screen and (max-width: 575px) {
-    table.table-with-image{
-        display: none;
-    }
-}
-
-
-@media screen and (min-width: 575px) {
-    table.table-without-image {
-        display: none;
-    }
+.middle-table-case {
+    border-bottom-color: rgb(172, 172, 172);
 }
