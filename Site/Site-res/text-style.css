@@ -133,6 +133,9 @@ header h1, .title-front h1, .title-data h1{
 }
 
 .link {
-    
     text-decoration: underline;
+}
+
+.link:hover {
+    opacity: 60%;
 }
