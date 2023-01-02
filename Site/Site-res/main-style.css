@@ -114,6 +114,10 @@ header h1, .title-front h1, .title-data h1{
     table.table-with-image{
         display: none;
     }
+
+    .image_with_text .content {
+        font-size: 2.25vw;
+    }
 }
 
 @media screen and (min-width: 575px) {

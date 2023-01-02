@@ -183,9 +183,12 @@
         max-width: 100vw;
     }
 
-    .image_with_text .content {
-        padding-inline: 5vw;
-        font-size: 1.75vw;
+
+    @media screen and (min-width :575px) {
+        .image_with_text .content {
+            padding-inline: 5vw;
+            font-size: 1.75vw;
+        }
     }
 
 

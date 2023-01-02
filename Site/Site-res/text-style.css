@@ -92,6 +92,7 @@ header h1, .title-front h1, .title-data h1{
 
 .title-data h1, .title-front h1 {
     font-size: clamp(25px, 3vw, 75px);
+    text-align: left;
 }
 
 
