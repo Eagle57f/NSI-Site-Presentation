@@ -62,7 +62,7 @@ header h1 {
     animation: rotation 25s linear 0s infinite;
     position: absolute;
     top: 0vw;
-    right: 0vw;
+    right: 2vw;
 }
 
 .icon-boussole:hover{
@@ -124,4 +124,15 @@ header h1, .title-front h1, .title-data h1{
     table.table-without-image {
         display: none;
     }
+}
+
+
+
+footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    gap: 19vw;
 }
