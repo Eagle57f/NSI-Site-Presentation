@@ -62,7 +62,7 @@ header h1 {
     animation: rotation 25s linear 0s infinite;
     position: absolute;
     top: 0vw;
-    right: 2vw;
+    right: 0vw;
 }
 
 .icon-boussole:hover{

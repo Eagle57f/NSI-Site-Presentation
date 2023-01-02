@@ -55,25 +55,6 @@ header h1 {
 }
 
 
-.icon-boussole {
-    width: 10vw;
-    height: 10vw;
-    animation: rotation 12s linear 0s infinite;
-    position: absolute;
-    top: 0vw;
-    right: 2vw;
-}
-
-.icon-boussole:hover{
-    animation-play-state: paused;
-}
-
-@keyframes rotation {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-
 
 .title-front h1, .title-data h1{
     background: linear-gradient(90deg, #ea06ff, #0ce4ec);
