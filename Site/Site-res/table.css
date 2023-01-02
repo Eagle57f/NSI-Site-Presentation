@@ -29,10 +29,6 @@ thead > tr, .side-row{
 
 
 @media screen and (max-width: 575px) {
-    table.table-without-image {
-        display: block;
-    }
-
     table.table-with-image{
         display: none;
     }
@@ -42,9 +38,5 @@ thead > tr, .side-row{
 @media screen and (min-width: 575px) {
     table.table-without-image {
         display: none;
-    }
-
-    table.table-with-image{
-        display: block;
     }
 }
