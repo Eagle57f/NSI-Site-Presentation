@@ -40,6 +40,15 @@ img {
 }
 
 
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    opacity: 60%;
+}
+
+
 header {
     display: flex;
     justify-content: center;
